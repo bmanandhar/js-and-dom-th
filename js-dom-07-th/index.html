@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>JavaScript and the DOM</title>
+    <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h1 id="myHeading">JavaScript and the DOM</h1>
+    <p>Making a web page interactive</p>
+    <button id="toggleList">Hide list</button>
+    <div class="list">
+      <p class="description">Things that are purple:</p>
+      <input type = "text" class="description">
+      <button class="description">Change list description</button>
+      <p>mouseover: turns list items to capital, mouseout: turns back to original</p>
+      <ul>
+        <li>grapes 
+          <button class="up">Up</button>
+          <button class="down">Down</button>
+          <button class="remove">remove</button>
+        </li>
+        <li>amethyst 
+          <button class="up">Up</button>
+          <button class="down">Down</button>
+          <button class="remove">remove</button>
+        </li>
+        <li>lavender 
+          <button class="up">Up</button>
+          <button class="down">Down</button>
+          <button class="remove">remove</button>
+        </li>
+        <li>plums 
+          <button class="up">Up</button>
+          <button class="down">Down</button>
+          <button class="remove">remove</button>
+        </li>
+      </ul>
+      <input type = "text" class="addItemInput">
+      <button class="addItemButton">Add item</button>
+    </div>
+    
+    
+    <h3>createElement(`element_name`) and appendChild(child_name). Examples will get displayed in each click:</h3>
+          <button class="createElementButton">Create Element</button>
+    <div id="content"></div> <!--This is for createElement-->
+    
+    <script src="app.js"></script>
+  </body>
+</html>
+
